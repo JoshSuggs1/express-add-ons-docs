@@ -132,7 +132,7 @@ import { editor, colorUtils, constants } from "express-document-sdk";
 
 They represent a safe, user-friendly way to refer to internal values (subject to change) that developers should not directly manipulate. For example, the stroke's `position` property is of type `StrokePosition`, which happens to be enumerable—a fixed set of pre-defined values.
 
-![](images/refs-addon-strokeposition.png)
+![](
 
 Internally, the center, inside, and outside positions are represented with the integers `0`, `1`, and `2`. You should instead use the `StrokePosition` constant and its available members:
 
